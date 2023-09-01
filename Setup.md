@@ -11,5 +11,11 @@
 * Go to this link and find the desired version https://www.python.org/downloads/windows/
 * Download the file where it shows "Windows x86 64-bit executable installer"
 * Add python to the PATH variable "C:\Users\Khadija Kamran\AppData\Local\Programs\Python\Python36"
-* Solution: Switch to Python 3.6
+* **Solution: Switch to Python 3.6**
+* **Problem**: Command "python setup.py egg_info" failed with error code 1 in C:\Users\KHADIJ~1\AppData\Local\Temp\pip-install-vu1vrpnh\PyQt5\
+* The error message you're seeing suggests that there is an issue with the installation of PyQt5, and it's failing during the execution of the command python setup.py egg_info. This error typically occurs when the required build dependencies for PyQt5 are not installed or when there is an issue with the installation process.
+* **Solution: upgraded the pip version**
+* Setup completed. All the requirements for the libraries are satisfied.
+![image](https://github.com/KhadijaKamran/Work-Documentation/assets/46638501/0f9a70c7-ff00-48a3-80d9-ee68a6dde28c)
+
 
