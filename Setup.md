@@ -18,4 +18,21 @@
 * Setup completed. All the requirements for the libraries are satisfied.
 ![image](https://github.com/KhadijaKamran/Work-Documentation/assets/46638501/0f9a70c7-ff00-48a3-80d9-ee68a6dde28c)
 
+### Database 
+* Run `python manage.py makemigrations`
+* Run `python manage.py migrate`
 
+### Runserver
+* Run `python manage.py runserver`
+* **Problem**: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+* **Solution: Added IP '127.0.0.1' to the ALLOWED_HOSTS dictionary**
+```
+ALLOWED_HOSTS = ["127.0.0.1","localhost"]
+```
+* The server runs successfully
+
+### git status
+```
+modified:   db.sqlite3
+modified:   quantlpro/settings.py
+```
